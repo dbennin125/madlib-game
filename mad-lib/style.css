@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+/* we'll need to make visibilty a thing */
+
+
+/* also make it look nice*/
+body {
+    background-color: darkgreen;
+    text-align: center;
+    padding top: 200px;
+}
+
+.boxOne {
+    color: brown;
+    
+}
+.boxTwo {
+   color: deeppink;
+   width: 100%;
+   height: 200px;
+   text-align: center;
+   visibility: collapse;
+
+}
+

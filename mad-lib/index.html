@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Lib Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+        <header id ="header" class ="header">
+        <h1>This should be fun</h1>
+<body>
+    
+    <!-- input for all the nouns, verbs, adj, and plural -->
+    
+    <div class="boxOne"> 
+        <p class="batterUp">First things first, let's choose a few things first!</p>
+        <script type = 'module' src = 'app.js'></script> <!--Needed, couldn't remember formula-->
+        
+        <section id ='input-area'>
+            <ul>
+                <label>
+                    Noun 
+                    <input id="nounInput"/>
+                </label><br>
+                <label>
+                    Adj
+                    <input id="adjInput"/><br>
+                </label>
+                <label>
+                    Noun <input id="noun2Input"/>
+                </label><br>
+                <label>
+                    Verb <input id="verbInput"/>
+                </label><br>
+                <label>
+                    Name <input id="nameInput"/>   
+                </label>
+
+                </ul>
+                
+        </section>
+    <!-- This boxOne needs to have input button -->
+        <button id='letsPush'>Let's see what it says!</button>
+    </div>
+
+    <div class="boxTwo">
+        <!-- This boxTwo will have the 'MadLib' container-->
+        <section class="littleBox">
+                <p>Call me <span id='nounOut'></span>...some years ago I <span id='adjOut'></span>walked through the hills.
+                <br>The giant <span id='noun2'></span> <span id='verbOut'></span> through the sky.
+                <br><span id ='name'></span> decided to write code.
+            </p>    
+        </section>
+    </div>
+    
+</body>
+</html>
